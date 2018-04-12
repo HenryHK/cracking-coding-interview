@@ -1,0 +1,35 @@
+{
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.wordWrap": "on",
+    "editor.autoClosingBrackets": false,
+    "editor.formatOnSave": true,
+    "vim.leader": ",",
+    "vim.useSystemClipboard": true,
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        }
+    ],
+}
