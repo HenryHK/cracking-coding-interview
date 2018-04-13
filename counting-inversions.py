@@ -4,6 +4,7 @@ counter = 0
 
 
 def merge(a, b):
+    global counter
     pointer_a = 0
     pointer_b = 0
     length = len(a) + len(b)
@@ -14,13 +15,13 @@ def merge(a, b):
             return result
         if pointer_b == len(b) and pointer_a < len(a):
             result += a[pointer_a:]
+            counter += len(a) - pointer_a
             return result
         if (a[pointer_a] <= b[pointer_b]):
             result.append(a[pointer_a])
             pointer_a += 1
         else:
             result.append(b[pointer_b])
-            global counter
             counter += 1
             pointer_b += 1
     return result

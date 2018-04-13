@@ -2,7 +2,7 @@
     "editor.fontSize": 15,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.wordWrap": "on",
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": true,
     "editor.formatOnSave": true,
     "vim.leader": ",",
     "vim.useSystemClipboard": true,
